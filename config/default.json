@@ -1,0 +1,5 @@
+{
+  "jwtPrivateKey": "jwtPrivateKey",
+  "db": "mongodb://localhost/doodleblueDB",
+  "salt_to_password": 9
+}

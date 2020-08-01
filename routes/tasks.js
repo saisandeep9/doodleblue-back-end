@@ -8,6 +8,7 @@ const { User } = require("../models/user");
 
 app.get("/tasks", auth, async (req, res) => {
   const task = await Task.find();
+
   res.send(task);
 });
 

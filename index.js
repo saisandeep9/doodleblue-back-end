@@ -35,6 +35,7 @@ app.use("/api", auth);
 app.use("/api", tasks);
 app.use("/api", tes);
 // app.use(error);
+// app.use(error);
 
 const port = process.env.PORT || 3900;
 const server = app.listen(port, () => console.log(`listening to port ${port}`));
